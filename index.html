@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+Zaid's prompt() method
+</title>
+
+</head>
+
+<body style = "text-align: center;">
+<h1>
+<b style="text-decoration-color: aqua;">assignment</b>
+</h1>
+
+
+<button  style="margin-top: 20px;" onclick = "zaid()">
+Click here
+</button>
+<p id="para" style="color: brown; font-size: 20px;"><input type="text"></p>
+<script>
+    function zaid() {
+    var v = prompt("Please enter", "We are the best team");
+    if (v != null) {
+    document.getElementById("para").innerHTML = "here :  " + v;
+    }
+    }
+    </script>
+
+
+</body>
+
+</html>
